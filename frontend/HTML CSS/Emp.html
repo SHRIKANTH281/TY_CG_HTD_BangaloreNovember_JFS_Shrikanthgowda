@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <center>
+            <h1>Employee Registration Form</h1>
+    <form action="#" method="POST">
+            <table>    
+                    <tr>
+                <td>  </td>
+                 
+                <td>
+        <input type="radio" name="gender">Mr
+        <input type="radio" name="gender">Mrs
+        <input type="radio" name="gender">Ms</td> 
+                </tr>
+            <tr>
+        <td><label for="s">FirstName</label></td>
+       <td><input type="text" name="fname" placeholder="FirstName" id="s"></td>
+            </tr>
+        <tr>
+       <td> <label for="p">LastName</label></td>
+       <td> <input type="text" name="lname" placeholder="LastName" id="p"></td>
+    </tr>
+       <tr><td> <label for="a">Address 1</label></td>
+       <td> <input type="text" id="a" name="addrs1"></td></tr>
+       <tr><td> <label for="a1">Address 2</label></td>
+        <td><input type="text" id="a1" name="addrs2"></td> </tr>      
+        <tr><td><label for="c">City</label></td>
+       <td> <input type="text" id="c" name="city"></td></tr>
+       <tr><td> <label for="c">State</label></td>
+        <td> <input list="States" id="c">
+        <datalist id="States">
+         <option value="karnataka">karnataka</option>
+         <option value="Kerala">Kerala</option>
+         <option value="Mumbai">Mumbai</option>
+         <option value="Goa">Goa</option>
+         </datalist></td></tr>
+         <tr><td><label for="z">Zip</label></td>
+         <td><input type="text" name="Zip" id="z"></td></tr>
+         <tr><td><label for="f">Upload Photo</label></td>
+         <td><input type="file" id="f"></td></tr>
+         <tr><td><label for="e">E-mail</label></td>
+         <td><input type="email" name="email" id="e"></td></tr>
+         <tr><td><label for="m">Mobile</label></td>
+         <td><input type="text" name="number" id="m" placeholder="+91"></td></tr>
+         <tr><td><label for="l">Language known</label></td>
+         <td><input type="checkbox" name="lang" value="Kannada">Kannada <br>
+         <input type="checkbox" name="lang" value="Hindi">Hindi<br>
+         <input type="checkbox" name="lang" value="English">English<br>
+         <input type="checkbox" name="lang" value="Tulu">Tulu</td></tr>
+         <tr><td>
+             <label for="A">Additional Information</label></td>
+            <td> <input type="text" id="A"><br></td>
+         </tr>
+         <tr><td></td><td>
+             <input type="submit" value="submit">
+             <input type="reset" value="reset">
+            </td>
+            </tr>
+        </table>
+    </form>
+</center>
+
+</body>
+</html>
